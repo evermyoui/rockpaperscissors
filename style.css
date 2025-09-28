@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* full screen height */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center; /* push one to top, one to bottom */
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.play {
+    margin-top: 20px;
+    font-weight: bold;
+}
